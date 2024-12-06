@@ -35,7 +35,7 @@ module PmacsRefile
     end
 
     def valid_id?(id)
-      id =~ /\A[a-z0-9]+\z/i
+      id.to_s =~ /\A[a-z0-9]+\z/i
     end
 
     def decode_id(id)
