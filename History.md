@@ -1,3 +1,11 @@
+# 3.0.3
+
+- Remove sinatra pins
+
+# 3.0.2
+
+- PMACS Refile
+
 # 0.6.3
 
 - [ADDED] Allow to keep uploaded files when the record is destroyed #362
